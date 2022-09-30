@@ -14,6 +14,7 @@ import cloudtesla.crm.GenericLibrary.WebDriverUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
+	//creating object of webdriver utility methods
 	public PropertyFileUtility plib=new PropertyFileUtility();
 	public ExcelFileUtility elib=new ExcelFileUtility();
 	public WebDriverUtility wlib=new WebDriverUtility();
